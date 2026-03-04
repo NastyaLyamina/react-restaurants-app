@@ -1,0 +1,43 @@
+.restaurant-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-5px);
+}
+
+.restaurant-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.restaurant-description {
+  color: #9a2e2e;
+  font-size: 14px;
+}

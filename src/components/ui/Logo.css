@@ -1,0 +1,14 @@
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.logo__text {
+  font-weight: 800;
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+  color: #333;
+}

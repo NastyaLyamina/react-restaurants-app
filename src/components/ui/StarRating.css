@@ -1,0 +1,13 @@
+.stars-row {
+  display: flex;
+  gap: 4px;
+}
+
+.star-item {
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.star-item:hover {
+  transform: scale(1.2);
+}
